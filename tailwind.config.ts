@@ -10,6 +10,7 @@ const config: Config = {
     extend: {
       backgroundImage: {
         'checked-top': 'url(/top-checked-bg.svg)',
+        banner: 'url(/banner.svg)',
       },
     },
   },
