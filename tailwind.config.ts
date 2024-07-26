@@ -10,9 +10,13 @@ const config: Config = {
     extend: {
       backgroundImage: {
         'checked-top': 'url(/top-checked-bg.svg)',
-        banner: 'url(/banner.svg)',
-        'banner-mobile': 'url(/banner-mobile.svg)',
+        banner:
+          'url(/banner.svg), linear-gradient(180deg, #2F5478 0%, #22405C 100%)',
+        'banner-mobile':
+          'url(/banner-mobile.svg), linear-gradient(180deg, #2F5478 0%, #22405C 100%)',
         'logo-full': 'url(/logo-full.svg)',
+        'dark-blue-gradient':
+          'linear-gradient(180deg, #2F5478 0%, #22405C 100%)',
       },
       backgroundPosition: {
         'logo-footer': 'center bottom -2rem',
