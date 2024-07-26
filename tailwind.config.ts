@@ -11,6 +11,10 @@ const config: Config = {
       backgroundImage: {
         'checked-top': 'url(/top-checked-bg.svg)',
         banner: 'url(/banner.svg)',
+        'logo-full': 'url(/logo-full.svg)',
+      },
+      backgroundPosition: {
+        'logo-footer': 'center bottom -2rem',
       },
     },
   },

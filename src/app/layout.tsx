@@ -4,6 +4,7 @@ import { DM_Sans } from 'next/font/google';
 
 import './globals.css';
 import { FloatingNavBar } from '@/app/components/floating-nav-bar';
+import { Footer } from '@/app/components/footer';
 
 const dmSans = DM_Sans({ subsets: ['latin'] });
 
@@ -24,6 +25,7 @@ const RootLayout = ({
         <main className="mb-[100px] mt-52 flex flex-col items-center gap-[100px] px-[72px]">
           {children}
         </main>
+        <Footer />
       </body>
     </html>
   );
