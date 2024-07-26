@@ -39,8 +39,8 @@ export const TabSelector = () => {
   };
 
   return (
-    <div className="flex w-full items-center justify-between">
-      <div className="flex items-center gap-4">
+    <div className="flex w-full items-start justify-between sm:items-center">
+      <div className="flex flex-col items-start gap-4 sm:flex-row sm:items-center">
         {TabOptions.map((tab) => (
           <button
             key={tab.value}

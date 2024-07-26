@@ -11,6 +11,7 @@ const config: Config = {
       backgroundImage: {
         'checked-top': 'url(/top-checked-bg.svg)',
         banner: 'url(/banner.svg)',
+        'banner-mobile': 'url(/banner-mobile.svg)',
         'logo-full': 'url(/logo-full.svg)',
       },
       backgroundPosition: {

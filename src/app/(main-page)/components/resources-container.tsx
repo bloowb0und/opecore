@@ -100,27 +100,31 @@ export const ResourcesContainer = () => {
   };
 
   return (
-    <div className="flex flex-col gap-20">
+    <div className="flex flex-col gap-10 sm:gap-20">
       {chunkedResources.map((chunk, idx) => (
         <div
           key={idx}
           className={cn(
-            'gap-5',
+            'flex-col gap-10 sm:flex-row sm:gap-5',
             isChunkIdxShownOnMobile(idx) ? 'flex' : 'hidden sm:flex',
           )}
         >
           {chunk.map((resource) => (
-            <div key={resource.title} className="flex w-[33%] flex-col gap-4">
+            <div
+              key={resource.title}
+              className="flex w-full flex-col gap-4 sm:w-[33%]"
+            >
               <Image
                 alt={resource.title}
+                className="w-full sm:w-[400px]"
                 height={250}
                 src={resource.imageUrl}
                 width={400}
               />
-              <p className="text-2xl font-medium text-[#344054]">
+              <p className="text-xl font-medium text-[#344054] sm:text-2xl">
                 {resource.title}
               </p>
-              <div className="flex items-center gap-5">
+              <div className="flex flex-wrap items-center gap-2 sm:gap-5">
                 {resource.tags.map((tag) => (
                   <div
                     key={tag.title}

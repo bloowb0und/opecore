@@ -22,7 +22,7 @@ const RootLayout = ({
     <html lang="en">
       <body className={dmSans.className}>
         <FloatingNavBar />
-        <main className="mb-[100px] mt-52 flex flex-col items-center gap-[100px] px-[72px]">
+        <main className="mb-8 mt-40 flex flex-col items-center gap-7 px-4 sm:mb-[100px] sm:mt-52 sm:gap-[100px] sm:px-[72px]">
           {children}
         </main>
         <Footer />

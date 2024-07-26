@@ -1,12 +1,12 @@
 ﻿export const BannerSection = () => (
-  <section className="flex h-[480px] w-full items-center justify-between rounded-3xl bg-banner bg-center bg-no-repeat p-[123px] pl-[90px]">
-    <div className="flex flex-col gap-5 text-6xl font-normal text-white">
+  <section className="sm:bg-banner bg-banner-mobile flex h-full w-full flex-col items-center justify-between gap-[64px] rounded-2xl bg-center bg-no-repeat px-6 py-[64px] sm:h-[480px] sm:flex-row sm:gap-0 sm:rounded-3xl sm:p-[123px] sm:pl-[90px]">
+    <div className="flex flex-col gap-5 text-4xl font-normal text-white sm:text-6xl">
       <h2>
         Transforming your
         <br />
         <span className="font-semibold">Ideas into reality</span>
       </h2>
-      <h4 className="w-[80%] text-xl">
+      <h4 className="w-[80%] text-base sm:text-xl">
         Let&apos;s build something extraordinary together to captivate your
         audience.
       </h4>

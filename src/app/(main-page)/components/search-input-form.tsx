@@ -33,7 +33,7 @@ export const SearchInputForm = () => {
 
   return (
     <form
-      className="relative w-full rounded-2xl border-2 border-[#EAECF0] px-4 py-5 transition-colors has-[:focus]:border-[#D0D5DD]"
+      className="relative w-full rounded-2xl border-2 border-[#EAECF0] px-4 py-2.5 transition-colors has-[:focus]:border-[#D0D5DD] sm:py-5"
       onSubmit={onFormSubmit}
     >
       <button className="absolute" type="submit">
